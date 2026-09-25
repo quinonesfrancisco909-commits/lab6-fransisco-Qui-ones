@@ -1,2 +1,228 @@
-<!-- TODO: construye aquí tu página (Lab #6) -->
- 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página oficial de la Clínica veterinaria para atención médica integral, vacunas y emergencias de mascotas.">
+  <meta name="author" content="Frasisco Quinones">
+  <meta name="codigo-sesion" content="LAB6-V9S3">
+  <title>Clínica veterinaria - Cuidado Integral</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/app.js" defer></script>
+  <style>
+    
+    .banner-destacado {
+      background-color: #f4f8e8;
+      border-left: 4px solid #7c9720;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <noscript>
+    <p>Esta página requiere activar JavaScript para un funcionamiento óptimo.</p>
+  </noscript>
+
+  <header style="border-bottom: 2px solid #7c9720;">
+    <h1>Clínica veterinaria Hatzany</h1>
+    <nav>
+      <ul>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#horarios">Horarios</a></li>
+        <li><a href="#preguntas">Preguntas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="ficha-2155" class="k-7281a7">
+    <div class="banner-destacado">
+      <p>En la clínica <mark>destacamos</mark> la atención de calidad. 
+  Para emergencias use el código <code>EMG-911</code> o consulte la <cite>Guía Veterinaria</cite>.</p>
+    </div>
+
+    <section id="servicios">
+      <h2>Nuestros Servicios Principales</h2>
+      <article>
+        <h3>Consulta General y Vacunación</h3>
+        <p>Ofrecemos esquemas completos de vacunación para <mark>perros y gatos</mark>. Consulta el estado de tu mascota con nuestro equipo médico.</p>
+        <figure>
+          <img src="img/mascota.jpg" alt="Mascota recibiendo revisión médica veterinaria" loading="lazy">
+          <figcaption>Atención personalizada durante la consulta médica.</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <h3>Cirugías y Emergencias</h3>
+        <p>Contamos con quirófano equipado. Para mayor información sobre <abbr title="Servicio Veterinario de Urgencias">SVU</abbr>, contáctanos de inmediato.</p>
+      </article>
+
+      <aside>
+        <h3>Consejo de Salud</h3>
+        <p>Recuerda realizar un chequeo semestral a tu mascota. Haz clic en <kbd>Ctrl</kbd> + <kbd>D</kbd> para guardar nuestra web en favoritos.</p>
+      </aside>
+    </section>
+
+    <section id="horarios">
+      <h2>Tarifas y Disponibilidad de Citas</h2>
+      <p>Servicios actualizados al <time datetime="2026-09-23">23 de septiembre de 2026</time>.</p>
+      <table>
+        <caption>Lista de precios y especialidades médicas</caption>
+        <thead>
+          <tr>
+            <th scope="col">Especialidad</th>
+            <th scope="col">Doctor Asignado</th>
+            <th scope="col">Costo estimado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+    <th scope="row">Consulta General</th>
+    <td>Dr. Pérez</td>
+    <td>$25.00</td>
+  </tr>
+  <tr>
+    <th scope="row">Vacunación Triple</th>
+    <td>Dra. Gómez</td>
+    <td>$30.00</td>
+  </tr>
+  <tr>
+    <th scope="row">Limpieza Dental</th>
+    <td>Dr. Martínez</td>
+    <td>$80.00</td>
+  </tr>
+  <tr>
+    <th scope="row">Desparasitación</th>
+    <td>Dra. Gómez</td>
+    <td>$15.00</td>
+  </tr>
+  <tr>
+    <th scope="row">Cirugía Menor</th>
+    <td>Dr. Pérez</td>
+    <td>Previa evaluación</td>
+  </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Precios sujetos a variaciones según el peso de la mascota.</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <h3>Términos y Preguntas Frecuentes</h3>
+      <dl>
+        <dt>Consulta de Urgencia</dt>
+        <dd>Atención prioritaria sin cita previa para casos graves.</dd>
+        <dt>Carnet de Vacunación</dt>
+        <dd>Documento obligatorio en cada visita médica.</dd>
+      </dl>
+
+      <details>
+        <summary>Ver requisitos para la primera visita</summary>
+  <p>Traer carnet de vacunas previo, traer al perro con correa o al gato en su caja de transporte.</p>
+</details>
+</section>
+
+<section id="preguntas">
+  <h2>Multimedia</h2>
+
+  <div>
+    <h3>Audio Informativo de la Clínica</h3>
+    <audio controls>
+      <source src="img/audio.mp3" type="audio/mpeg">
+      Tu navegador no soporta el reproductor de audio.
+    </audio>
+  </div>
+
+  <div>
+    <h3>Video informativo de la clinica</h3>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/Nh2GxvAfx48"
+      title="Vídeo informativo de la clínica veterinaria"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <div>
+        <h3>Ubicación</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.852441995878!2d-79.5350!3d8.9833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwNTknMDAuMCJOIDc5wrAzMicwNi4wIlc!5e0!3m2!1ses!2spa!4v1600000000000!5m2!1ses!2spa" 
+  title="Ubicación de la Clínica Veterinaria" 
+  width="100%" 
+  height="250" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy"> ></iframe>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Formulario de Registro de Cita</h2>
+      <form action="/enviar" method="post">
+        <fieldset>
+          <legend>Datos de la Mascota y Propietario</legend>
+
+          <label for="nombre-dueno">Nombre del Dueño:</label>
+          <input type="text" id="nombre-dueno" name="nombre_dueno" required placeholder="Ej. Frasisco Quiñones" autocomplete="name">
+
+          <label for="correo">Correo Electrónico:</label>
+          <input type="email" id="correo" name="correo" required placeholder="correo@ejemplo.com">
+
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" pattern="[0-9]{8,10}" placeholder="88888888">
+
+          <label for="mascota">Especie:</label>
+          <input type="text" id="mascota" name="mascota" list="lista-especies" placeholder="Selecciona o escribe">
+          <datalist id="lista-especies">
+            <option value="Perro"></option>
+            <option value="Gato"></option>
+            <option value="Ave"></option>
+          </datalist>
+
+          <label for="tipo-cita">Servicio Requerido:</label>
+          <select id="tipo-cita" name="tipo_cita">
+            <option value="consulta">Consulta General</option>
+            <option value="vacuna">Vacunación</option>
+            <option value="estetica">Estética / Baño</option>
+          </select>
+
+          <label for="edad">Edad de la mascota (años):</label>
+          <input type="number" id="edad" name="edad" min="0" max="30" step="1" value="1">
+
+          <label for="fecha-cita">Fecha preferida:</label>
+          <input type="date" id="fecha-cita" name="fecha_cita" required min="2026-09-23">
+
+          <label for="hora-cita">Hora preferida:</label>
+          <input type="time" id="hora-cita" name="hora_cita">
+
+          <label for="nivel-urgencia">Prioridad de atención:</label>
+          <input type="range" id="nivel-urgencia" name="urgencia" min="1" max="5">
+
+          <label for="clave-acceso">Código de Cliente:</label>
+          <input type="password" id="clave-acceso" name="clave" maxlength="8" minlength="4">
+
+          <p>¿Primera vez en la clínica?</p>
+          <label for="primera-si"><input type="radio" id="primera-si" name="primera_vez" value="si" checked> Sí</label>
+          <label for="primera-no"><input type="radio" id="primera-no" name="primera_vez" value="no"> No</label>
+
+          <label for="color-mascota">Color del pelaje:</label>
+          <input type="color" id="color-mascota" name="color_pelaje" value="#7c9720">
+
+          <label for="sintomas">Síntomas o Motivo de consulta:</label>
+          <textarea id="sintomas" name="sintomas" rows="4" placeholder="Describa brevemente el motivo..."></textarea>
+
+          <button type="submit">Agendar Cita</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Clínica veterinaria. Creado por Frasisco Quinones.</p>
+  </footer>
+</body>
+</html>
